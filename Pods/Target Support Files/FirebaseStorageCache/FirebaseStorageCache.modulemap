@@ -1,0 +1,6 @@
+framework module FirebaseStorageCache {
+  umbrella header "FirebaseStorageCache-umbrella.h"
+
+  export *
+  module * { export * }
+}

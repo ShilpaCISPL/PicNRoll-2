@@ -1,0 +1,6 @@
+framework module Pods_PickAndRoll {
+  umbrella header "Pods-PickAndRoll-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BEBEB983B6017612FA8F435 /* Pods_PickAndRollTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5A27FB04A639A7FBB2AC57 /* Pods_PickAndRollTests.framework */; };
+		5CA293D61F220ACE006362D1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA293D51F220ACE006362D1 /* LoginViewController.swift */; };
+		5CA32F961F46FB1F007D73EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CA32F951F46FB1F007D73EB /* GoogleService-Info.plist */; };
+		5CC499E21F289535008E75F6 /* CustomFolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC499E11F289535008E75F6 /* CustomFolderCell.swift */; };
+		5CC499E61F29F0F1008E75F6 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC499E51F29F0F1008E75F6 /* ToDoListTableViewController.swift */; };
+		5CC499E81F29F10D008E75F6 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC499E71F29F10D008E75F6 /* menuViewController.swift */; };
+		5CF4A7AF1F459546004B8082 /* NewToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4A7AE1F459546004B8082 /* NewToDoTableViewController.swift */; };
+		8321591E1F208FA0006FEF79 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8321591D1F208F9F006FEF79 /* ForgotPasswordViewController.swift */; };
+		835386B51F0CB24900D9114F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835386B41F0CB24900D9114F /* CollectionViewCell.swift */; };
+		835386B91F0CB2B500D9114F /* PhotoFromAlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835386B81F0CB2B500D9114F /* PhotoFromAlbumsViewController.swift */; };
+		835386BB1F0E54BB00D9114F /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835386BA1F0E54BA00D9114F /* UsersListViewController.swift */; };
+		835386BD1F0E573B00D9114F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835386BC1F0E573B00D9114F /* CustomCell.swift */; };
+		839804841EF7CE93003A02F3 /* ImagePickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839804831EF7CE93003A02F3 /* ImagePickViewController.swift */; };
+		839804881EF7E689003A02F3 /* ImagePickViewControllerhandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839804871EF7E689003A02F3 /* ImagePickViewControllerhandler.swift */; };
+		8398048A1EF90610003A02F3 /* ViewControllerhandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839804891EF90610003A02F3 /* ViewControllerhandler.swift */; };
+		839804911EFBD0FC003A02F3 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8398048F1EFBD0FC003A02F3 /* Contacts.framework */; };
+		839804921EFBD0FC003A02F3 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839804901EFBD0FC003A02F3 /* ContactsUI.framework */; };
+		83B5969D1F021CEA00F200A6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B5969C1F021CEA00F200A6 /* MobileCoreServices.framework */; };
+		83B596F01F023E7F00F200A6 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B596D61F023E7F00F200A6 /* ELCAlbumPickerController.m */; };
+		83B596F11F023E7F00F200A6 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B596D81F023E7F00F200A6 /* ELCAsset.m */; };
+		83B596F21F023E7F00F200A6 /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B596DA1F023E7F00F200A6 /* ELCAssetCell.m */; };
+		83B596F31F023E7F00F200A6 /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B596DE1F023E7F00F200A6 /* ELCAssetTablePicker.m */; };
+		83B596F41F023E7F00F200A6 /* ELCConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B596E01F023E7F00F200A6 /* ELCConsole.m */; };
+		83B596F51F023E7F00F200A6 /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B596E21F023E7F00F200A6 /* ELCImagePickerController.m */; };
+		83B596F61F023E7F00F200A6 /* ELCOverlayImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B596E51F023E7F00F200A6 /* ELCOverlayImageView.m */; };
+		83B596F71F023E7F00F200A6 /* ELCAlbumPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B596E71F023E7F00F200A6 /* ELCAlbumPickerController.xib */; };
+		83B596F81F023E7F00F200A6 /* ELCAssetPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B596E81F023E7F00F200A6 /* ELCAssetPicker.xib */; };
+		83B596F91F023E7F00F200A6 /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B596E91F023E7F00F200A6 /* ELCAssetTablePicker.xib */; };
+		83B596FA1F023E7F00F200A6 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B596EA1F023E7F00F200A6 /* Overlay.png */; };
+		83B596FB1F023E7F00F200A6 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B596EB1F023E7F00F200A6 /* Overlay@2x.png */; };
+		83B596FC1F023E7F00F200A6 /* ELCImagePickerDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B596ED1F023E7F00F200A6 /* ELCImagePickerDemoAppDelegate.m */; };
+		83B596FD1F023E7F00F200A6 /* ELCImagePickerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B596EF1F023E7F00F200A6 /* ELCImagePickerDemoViewController.m */; };
+		83B5971F1F06347700F200A6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B5971D1F06347700F200A6 /* Alamofire.framework */; };
+		83B597201F06347700F200A6 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B5971E1F06347700F200A6 /* AlamofireImage.framework */; };
+		83B8A0341F3D79490071CEB3 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B8A0331F3D79490071CEB3 /* MessageViewController.swift */; };
+		83BC42BE1EF3DBF500ADBD71 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC42BD1EF3DBF500ADBD71 /* SideMenuViewController.swift */; };
+		83BC42C51EF3E9ED00ADBD71 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BC42C41EF3E9ED00ADBD71 /* SWRevealViewController.m */; };
+		83BC42C81EF3ED4700ADBD71 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC42C71EF3ED4700ADBD71 /* MenuCell.swift */; };
+		83BC42CE1EF3F5AA00ADBD71 /* DisplayMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC42CD1EF3F5AA00ADBD71 /* DisplayMapViewController.swift */; };
+		83E5EF011EF3B7D80069BA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5EF001EF3B7D80069BA8E /* AppDelegate.swift */; };
+		83E5EF031EF3B7D80069BA8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5EF021EF3B7D80069BA8E /* ViewController.swift */; };
+		83E5EF061EF3B7D80069BA8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E5EF041EF3B7D80069BA8E /* Main.storyboard */; };
+		83E5EF081EF3B7D80069BA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E5EF071EF3B7D80069BA8E /* Assets.xcassets */; };
+		83E5EF0B1EF3B7D80069BA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E5EF091EF3B7D80069BA8E /* LaunchScreen.storyboard */; };
+		83E5EF161EF3B7D80069BA8E /* PickAndRollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5EF151EF3B7D80069BA8E /* PickAndRollTests.swift */; };
+		83E5EF211EF3B7D80069BA8E /* PickAndRollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5EF201EF3B7D80069BA8E /* PickAndRollUITests.swift */; };
+		83E5EF301EF3BBBB0069BA8E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5EF2E1EF3BBBB0069BA8E /* DataService.swift */; };
+		83E5EF311EF3BBBB0069BA8E /* SignOutCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5EF2F1EF3BBBB0069BA8E /* SignOutCode.swift */; };
+		ADE4542D812DF95D78FDC2BA /* Pods_PickAndRoll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F44489AB45ECF6E4603953 /* Pods_PickAndRoll.framework */; };
+		DE8DE1C7DD2AE6A09661DF73 /* Pods_PickAndRollUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811F1F001F5F0F7237F59924 /* Pods_PickAndRollUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83E5EF121EF3B7D80069BA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E5EEF51EF3B7D80069BA8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E5EEFC1EF3B7D80069BA8E;
+			remoteInfo = PickAndRoll;
+		};
+		83E5EF1D1EF3B7D80069BA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E5EEF51EF3B7D80069BA8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E5EEFC1EF3B7D80069BA8E;
+			remoteInfo = PickAndRoll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CA293D51F220ACE006362D1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5CA32F951F46FB1F007D73EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Classes/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5CC499E11F289535008E75F6 /* CustomFolderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFolderCell.swift; sourceTree = "<group>"; };
+		5CC499E51F29F0F1008E75F6 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
+		5CC499E71F29F10D008E75F6 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		5CF4A7AE1F459546004B8082 /* NewToDoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewToDoTableViewController.swift; sourceTree = "<group>"; };
+		68E72E627A2C9CAB7419A8B6 /* Pods-PickAndRoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndRoll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickAndRoll/Pods-PickAndRoll.debug.xcconfig"; sourceTree = "<group>"; };
+		6D11A7D8DF22F5CCFA3C5E1B /* Pods-PickAndRollTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndRollTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickAndRollTests/Pods-PickAndRollTests.release.xcconfig"; sourceTree = "<group>"; };
+		78D7D20BA17916361D16C891 /* Pods-PickAndRoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndRoll.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickAndRoll/Pods-PickAndRoll.release.xcconfig"; sourceTree = "<group>"; };
+		811F1F001F5F0F7237F59924 /* Pods_PickAndRollUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickAndRollUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8321591D1F208F9F006FEF79 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		835386B41F0CB24900D9114F /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		835386B81F0CB2B500D9114F /* PhotoFromAlbumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoFromAlbumsViewController.swift; sourceTree = "<group>"; };
+		835386BA1F0E54BA00D9114F /* UsersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersListViewController.swift; sourceTree = "<group>"; };
+		835386BC1F0E573B00D9114F /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		839804831EF7CE93003A02F3 /* ImagePickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickViewController.swift; sourceTree = "<group>"; };
+		839804871EF7E689003A02F3 /* ImagePickViewControllerhandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickViewControllerhandler.swift; sourceTree = "<group>"; };
+		839804891EF90610003A02F3 /* ViewControllerhandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerhandler.swift; sourceTree = "<group>"; };
+		8398048F1EFBD0FC003A02F3 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		839804901EFBD0FC003A02F3 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		83B5969C1F021CEA00F200A6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		83B596D51F023E7F00F200A6 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		83B596D61F023E7F00F200A6 /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		83B596D71F023E7F00F200A6 /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAsset.h; sourceTree = "<group>"; };
+		83B596D81F023E7F00F200A6 /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAsset.m; sourceTree = "<group>"; };
+		83B596D91F023E7F00F200A6 /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetCell.h; sourceTree = "<group>"; };
+		83B596DA1F023E7F00F200A6 /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetCell.m; sourceTree = "<group>"; };
+		83B596DB1F023E7F00F200A6 /* ELCAssetPickerFilterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetPickerFilterDelegate.h; sourceTree = "<group>"; };
+		83B596DC1F023E7F00F200A6 /* ELCAssetSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetSelectionDelegate.h; sourceTree = "<group>"; };
+		83B596DD1F023E7F00F200A6 /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		83B596DE1F023E7F00F200A6 /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		83B596DF1F023E7F00F200A6 /* ELCConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCConsole.h; sourceTree = "<group>"; };
+		83B596E01F023E7F00F200A6 /* ELCConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCConsole.m; sourceTree = "<group>"; };
+		83B596E11F023E7F00F200A6 /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerController.h; sourceTree = "<group>"; };
+		83B596E21F023E7F00F200A6 /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerController.m; sourceTree = "<group>"; };
+		83B596E31F023E7F00F200A6 /* ELCImagePickerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerHeader.h; sourceTree = "<group>"; };
+		83B596E41F023E7F00F200A6 /* ELCOverlayImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCOverlayImageView.h; sourceTree = "<group>"; };
+		83B596E51F023E7F00F200A6 /* ELCOverlayImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCOverlayImageView.m; sourceTree = "<group>"; };
+		83B596E71F023E7F00F200A6 /* ELCAlbumPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAlbumPickerController.xib; sourceTree = "<group>"; };
+		83B596E81F023E7F00F200A6 /* ELCAssetPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetPicker.xib; sourceTree = "<group>"; };
+		83B596E91F023E7F00F200A6 /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetTablePicker.xib; sourceTree = "<group>"; };
+		83B596EA1F023E7F00F200A6 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
+		83B596EB1F023E7F00F200A6 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
+		83B596EC1F023E7F00F200A6 /* ELCImagePickerDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerDemoAppDelegate.h; sourceTree = "<group>"; };
+		83B596ED1F023E7F00F200A6 /* ELCImagePickerDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerDemoAppDelegate.m; sourceTree = "<group>"; };
+		83B596EE1F023E7F00F200A6 /* ELCImagePickerDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCImagePickerDemoViewController.h; path = PickAndRoll/Classes/ELCImagePickerDemoViewController.h; sourceTree = SOURCE_ROOT; };
+		83B596EF1F023E7F00F200A6 /* ELCImagePickerDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerDemoViewController.m; sourceTree = "<group>"; };
+		83B5971D1F06347700F200A6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/PickAndRoll-cttjsgrhbmexleemffkjyooavbiy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		83B5971E1F06347700F200A6 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "../../../Library/Developer/Xcode/DerivedData/PickAndRoll-cttjsgrhbmexleemffkjyooavbiy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
+		83B8A0331F3D79490071CEB3 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		83BC42B91EF3D9E100ADBD71 /* PickAndRoll-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PickAndRoll-Bridging-Header.h"; sourceTree = "<group>"; };
+		83BC42BD1EF3DBF500ADBD71 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		83BC42C31EF3E9E200ADBD71 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		83BC42C41EF3E9ED00ADBD71 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		83BC42C61EF3E9F300ADBD71 /* memuDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "memuDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		83BC42C71EF3ED4700ADBD71 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		83BC42CD1EF3F5AA00ADBD71 /* DisplayMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayMapViewController.swift; sourceTree = "<group>"; };
+		83E5EEFD1EF3B7D80069BA8E /* PickAndRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickAndRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E5EF001EF3B7D80069BA8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83E5EF021EF3B7D80069BA8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83E5EF051EF3B7D80069BA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83E5EF071EF3B7D80069BA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83E5EF0A1EF3B7D80069BA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83E5EF0C1EF3B7D80069BA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E5EF111EF3B7D80069BA8E /* PickAndRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickAndRollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E5EF151EF3B7D80069BA8E /* PickAndRollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAndRollTests.swift; sourceTree = "<group>"; };
+		83E5EF171EF3B7D80069BA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E5EF1C1EF3B7D80069BA8E /* PickAndRollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickAndRollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E5EF201EF3B7D80069BA8E /* PickAndRollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAndRollUITests.swift; sourceTree = "<group>"; };
+		83E5EF221EF3B7D80069BA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E5EF2E1EF3BBBB0069BA8E /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		83E5EF2F1EF3BBBB0069BA8E /* SignOutCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutCode.swift; sourceTree = "<group>"; };
+		B2BD14531ACD16092C1C065D /* Pods-PickAndRollTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndRollTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickAndRollTests/Pods-PickAndRollTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3BA24BCD89C945E3D59B3C9 /* Pods-PickAndRollUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndRollUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickAndRollUITests/Pods-PickAndRollUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC5A27FB04A639A7FBB2AC57 /* Pods_PickAndRollTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickAndRollTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59472CF0B9D7F7A7C16B4E4 /* Pods-PickAndRollUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndRollUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickAndRollUITests/Pods-PickAndRollUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0F44489AB45ECF6E4603953 /* Pods_PickAndRoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickAndRoll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83E5EEFA1EF3B7D80069BA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B5971F1F06347700F200A6 /* Alamofire.framework in Frameworks */,
+				83B597201F06347700F200A6 /* AlamofireImage.framework in Frameworks */,
+				83B5969D1F021CEA00F200A6 /* MobileCoreServices.framework in Frameworks */,
+				839804911EFBD0FC003A02F3 /* Contacts.framework in Frameworks */,
+				839804921EFBD0FC003A02F3 /* ContactsUI.framework in Frameworks */,
+				ADE4542D812DF95D78FDC2BA /* Pods_PickAndRoll.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E5EF0E1EF3B7D80069BA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEBEB983B6017612FA8F435 /* Pods_PickAndRollTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E5EF191EF3B7D80069BA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8DE1C7DD2AE6A09661DF73 /* Pods_PickAndRollUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		694239345004A7E08BC1C026 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68E72E627A2C9CAB7419A8B6 /* Pods-PickAndRoll.debug.xcconfig */,
+				78D7D20BA17916361D16C891 /* Pods-PickAndRoll.release.xcconfig */,
+				B2BD14531ACD16092C1C065D /* Pods-PickAndRollTests.debug.xcconfig */,
+				6D11A7D8DF22F5CCFA3C5E1B /* Pods-PickAndRollTests.release.xcconfig */,
+				C3BA24BCD89C945E3D59B3C9 /* Pods-PickAndRollUITests.debug.xcconfig */,
+				E59472CF0B9D7F7A7C16B4E4 /* Pods-PickAndRollUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		832159161F1F83DE006FEF79 /* CreateNewFolder */ = {
+			isa = PBXGroup;
+			children = (
+				5CC499E11F289535008E75F6 /* CustomFolderCell.swift */,
+				5CF4A7AE1F459546004B8082 /* NewToDoTableViewController.swift */,
+				5CC499E51F29F0F1008E75F6 /* ToDoListTableViewController.swift */,
+			);
+			name = CreateNewFolder;
+			sourceTree = "<group>";
+		};
+		835386B31F0CB1FE00D9114F /* CollectioViewForPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				835386B81F0CB2B500D9114F /* PhotoFromAlbumsViewController.swift */,
+				835386B41F0CB24900D9114F /* CollectionViewCell.swift */,
+			);
+			name = CollectioViewForPhotos;
+			sourceTree = "<group>";
+		};
+		83B596D31F023E7F00F200A6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83B596D41F023E7F00F200A6 /* ELCImagePicker */,
+				83B596EC1F023E7F00F200A6 /* ELCImagePickerDemoAppDelegate.h */,
+				83B596ED1F023E7F00F200A6 /* ELCImagePickerDemoAppDelegate.m */,
+				83B596EF1F023E7F00F200A6 /* ELCImagePickerDemoViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		83B596D41F023E7F00F200A6 /* ELCImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				83B596EE1F023E7F00F200A6 /* ELCImagePickerDemoViewController.h */,
+				83B596D51F023E7F00F200A6 /* ELCAlbumPickerController.h */,
+				83B596D61F023E7F00F200A6 /* ELCAlbumPickerController.m */,
+				83B596D71F023E7F00F200A6 /* ELCAsset.h */,
+				83B596D81F023E7F00F200A6 /* ELCAsset.m */,
+				83B596D91F023E7F00F200A6 /* ELCAssetCell.h */,
+				83B596DA1F023E7F00F200A6 /* ELCAssetCell.m */,
+				83B596DB1F023E7F00F200A6 /* ELCAssetPickerFilterDelegate.h */,
+				83B596DC1F023E7F00F200A6 /* ELCAssetSelectionDelegate.h */,
+				83B596DD1F023E7F00F200A6 /* ELCAssetTablePicker.h */,
+				83B596DE1F023E7F00F200A6 /* ELCAssetTablePicker.m */,
+				83B596DF1F023E7F00F200A6 /* ELCConsole.h */,
+				83B596E01F023E7F00F200A6 /* ELCConsole.m */,
+				83B596E11F023E7F00F200A6 /* ELCImagePickerController.h */,
+				83B596E21F023E7F00F200A6 /* ELCImagePickerController.m */,
+				83B596E31F023E7F00F200A6 /* ELCImagePickerHeader.h */,
+				83B596E41F023E7F00F200A6 /* ELCOverlayImageView.h */,
+				83B596E51F023E7F00F200A6 /* ELCOverlayImageView.m */,
+				83B596E61F023E7F00F200A6 /* Resources */,
+			);
+			path = ELCImagePicker;
+			sourceTree = "<group>";
+		};
+		83B596E61F023E7F00F200A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83B596E71F023E7F00F200A6 /* ELCAlbumPickerController.xib */,
+				83B596E81F023E7F00F200A6 /* ELCAssetPicker.xib */,
+				83B596E91F023E7F00F200A6 /* ELCAssetTablePicker.xib */,
+				83B596EA1F023E7F00F200A6 /* Overlay.png */,
+				83B596EB1F023E7F00F200A6 /* Overlay@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83E5EEF41EF3B7D80069BA8E = {
+			isa = PBXGroup;
+			children = (
+				83E5EEFF1EF3B7D80069BA8E /* PickAndRoll */,
+				83E5EF141EF3B7D80069BA8E /* PickAndRollTests */,
+				83E5EF1F1EF3B7D80069BA8E /* PickAndRollUITests */,
+				83E5EEFE1EF3B7D80069BA8E /* Products */,
+				694239345004A7E08BC1C026 /* Pods */,
+				E3D51D54199F240945560132 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83E5EEFE1EF3B7D80069BA8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83E5EEFD1EF3B7D80069BA8E /* PickAndRoll.app */,
+				83E5EF111EF3B7D80069BA8E /* PickAndRollTests.xctest */,
+				83E5EF1C1EF3B7D80069BA8E /* PickAndRollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83E5EEFF1EF3B7D80069BA8E /* PickAndRoll */ = {
+			isa = PBXGroup;
+			children = (
+				832159161F1F83DE006FEF79 /* CreateNewFolder */,
+				835386B31F0CB1FE00D9114F /* CollectioViewForPhotos */,
+				83B596D31F023E7F00F200A6 /* Classes */,
+				83BC42C71EF3ED4700ADBD71 /* MenuCell.swift */,
+				5CA32F951F46FB1F007D73EB /* GoogleService-Info.plist */,
+				83B8A0331F3D79490071CEB3 /* MessageViewController.swift */,
+				5CC499E71F29F10D008E75F6 /* menuViewController.swift */,
+				83BC42C31EF3E9E200ADBD71 /* SWRevealViewController.h */,
+				83BC42C61EF3E9F300ADBD71 /* memuDemo-Bridging-Header.h */,
+				83BC42C41EF3E9ED00ADBD71 /* SWRevealViewController.m */,
+				83E5EF2E1EF3BBBB0069BA8E /* DataService.swift */,
+				83E5EF2F1EF3BBBB0069BA8E /* SignOutCode.swift */,
+				83E5EF001EF3B7D80069BA8E /* AppDelegate.swift */,
+				83E5EF021EF3B7D80069BA8E /* ViewController.swift */,
+				83E5EF041EF3B7D80069BA8E /* Main.storyboard */,
+				835386BC1F0E573B00D9114F /* CustomCell.swift */,
+				83E5EF071EF3B7D80069BA8E /* Assets.xcassets */,
+				83E5EF091EF3B7D80069BA8E /* LaunchScreen.storyboard */,
+				83E5EF0C1EF3B7D80069BA8E /* Info.plist */,
+				83BC42B91EF3D9E100ADBD71 /* PickAndRoll-Bridging-Header.h */,
+				83BC42BD1EF3DBF500ADBD71 /* SideMenuViewController.swift */,
+				83BC42CD1EF3F5AA00ADBD71 /* DisplayMapViewController.swift */,
+				839804831EF7CE93003A02F3 /* ImagePickViewController.swift */,
+				839804871EF7E689003A02F3 /* ImagePickViewControllerhandler.swift */,
+				839804891EF90610003A02F3 /* ViewControllerhandler.swift */,
+				835386BA1F0E54BA00D9114F /* UsersListViewController.swift */,
+				8321591D1F208F9F006FEF79 /* ForgotPasswordViewController.swift */,
+				5CA293D51F220ACE006362D1 /* LoginViewController.swift */,
+			);
+			path = PickAndRoll;
+			sourceTree = "<group>";
+		};
+		83E5EF141EF3B7D80069BA8E /* PickAndRollTests */ = {
+			isa = PBXGroup;
+			children = (
+				83E5EF151EF3B7D80069BA8E /* PickAndRollTests.swift */,
+				83E5EF171EF3B7D80069BA8E /* Info.plist */,
+			);
+			path = PickAndRollTests;
+			sourceTree = "<group>";
+		};
+		83E5EF1F1EF3B7D80069BA8E /* PickAndRollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83E5EF201EF3B7D80069BA8E /* PickAndRollUITests.swift */,
+				83E5EF221EF3B7D80069BA8E /* Info.plist */,
+			);
+			path = PickAndRollUITests;
+			sourceTree = "<group>";
+		};
+		E3D51D54199F240945560132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B5971D1F06347700F200A6 /* Alamofire.framework */,
+				83B5971E1F06347700F200A6 /* AlamofireImage.framework */,
+				83B5969C1F021CEA00F200A6 /* MobileCoreServices.framework */,
+				8398048F1EFBD0FC003A02F3 /* Contacts.framework */,
+				839804901EFBD0FC003A02F3 /* ContactsUI.framework */,
+				F0F44489AB45ECF6E4603953 /* Pods_PickAndRoll.framework */,
+				DC5A27FB04A639A7FBB2AC57 /* Pods_PickAndRollTests.framework */,
+				811F1F001F5F0F7237F59924 /* Pods_PickAndRollUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83E5EEFC1EF3B7D80069BA8E /* PickAndRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E5EF251EF3B7D80069BA8E /* Build configuration list for PBXNativeTarget "PickAndRoll" */;
+			buildPhases = (
+				FEFA14946303B234669A2DDD /* [CP] Check Pods Manifest.lock */,
+				83E5EEF91EF3B7D80069BA8E /* Sources */,
+				83E5EEFA1EF3B7D80069BA8E /* Frameworks */,
+				83E5EEFB1EF3B7D80069BA8E /* Resources */,
+				DA3724834BD5755EB98A64BB /* [CP] Embed Pods Frameworks */,
+				9815377BC30F1D1DC241B45F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickAndRoll;
+			productName = PickAndRoll;
+			productReference = 83E5EEFD1EF3B7D80069BA8E /* PickAndRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83E5EF101EF3B7D80069BA8E /* PickAndRollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E5EF281EF3B7D80069BA8E /* Build configuration list for PBXNativeTarget "PickAndRollTests" */;
+			buildPhases = (
+				51736FF3FCBC54E03AE12746 /* [CP] Check Pods Manifest.lock */,
+				83E5EF0D1EF3B7D80069BA8E /* Sources */,
+				83E5EF0E1EF3B7D80069BA8E /* Frameworks */,
+				83E5EF0F1EF3B7D80069BA8E /* Resources */,
+				090E3D6EB5EC991102F1B720 /* [CP] Embed Pods Frameworks */,
+				2487C1535B4995FE3E4E8C53 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E5EF131EF3B7D80069BA8E /* PBXTargetDependency */,
+			);
+			name = PickAndRollTests;
+			productName = PickAndRollTests;
+			productReference = 83E5EF111EF3B7D80069BA8E /* PickAndRollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83E5EF1B1EF3B7D80069BA8E /* PickAndRollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E5EF2B1EF3B7D80069BA8E /* Build configuration list for PBXNativeTarget "PickAndRollUITests" */;
+			buildPhases = (
+				21CBE6B35F1E1F61F4F35484 /* [CP] Check Pods Manifest.lock */,
+				83E5EF181EF3B7D80069BA8E /* Sources */,
+				83E5EF191EF3B7D80069BA8E /* Frameworks */,
+				83E5EF1A1EF3B7D80069BA8E /* Resources */,
+				6A17F18AC0B7A30367A0C9B7 /* [CP] Embed Pods Frameworks */,
+				2A9CE2118040C7E8C2C6920C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E5EF1E1EF3B7D80069BA8E /* PBXTargetDependency */,
+			);
+			name = PickAndRollUITests;
+			productName = PickAndRollUITests;
+			productReference = 83E5EF1C1EF3B7D80069BA8E /* PickAndRollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83E5EEF51EF3B7D80069BA8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CISPL;
+				TargetAttributes = {
+					83E5EEFC1EF3B7D80069BA8E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2CRRHEMXQH;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					83E5EF101EF3B7D80069BA8E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2CRRHEMXQH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83E5EEFC1EF3B7D80069BA8E;
+					};
+					83E5EF1B1EF3B7D80069BA8E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2CRRHEMXQH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83E5EEFC1EF3B7D80069BA8E;
+					};
+				};
+			};
+			buildConfigurationList = 83E5EEF81EF3B7D80069BA8E /* Build configuration list for PBXProject "PickAndRoll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83E5EEF41EF3B7D80069BA8E;
+			productRefGroup = 83E5EEFE1EF3B7D80069BA8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83E5EEFC1EF3B7D80069BA8E /* PickAndRoll */,
+				83E5EF101EF3B7D80069BA8E /* PickAndRollTests */,
+				83E5EF1B1EF3B7D80069BA8E /* PickAndRollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83E5EEFB1EF3B7D80069BA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B596FA1F023E7F00F200A6 /* Overlay.png in Resources */,
+				5CA32F961F46FB1F007D73EB /* GoogleService-Info.plist in Resources */,
+				83B596F71F023E7F00F200A6 /* ELCAlbumPickerController.xib in Resources */,
+				83B596FB1F023E7F00F200A6 /* Overlay@2x.png in Resources */,
+				83E5EF0B1EF3B7D80069BA8E /* LaunchScreen.storyboard in Resources */,
+				83B596F81F023E7F00F200A6 /* ELCAssetPicker.xib in Resources */,
+				83B596F91F023E7F00F200A6 /* ELCAssetTablePicker.xib in Resources */,
+				83E5EF081EF3B7D80069BA8E /* Assets.xcassets in Resources */,
+				83E5EF061EF3B7D80069BA8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E5EF0F1EF3B7D80069BA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E5EF1A1EF3B7D80069BA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		090E3D6EB5EC991102F1B720 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickAndRollTests/Pods-PickAndRollTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21CBE6B35F1E1F61F4F35484 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2487C1535B4995FE3E4E8C53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickAndRollTests/Pods-PickAndRollTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A9CE2118040C7E8C2C6920C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickAndRollUITests/Pods-PickAndRollUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51736FF3FCBC54E03AE12746 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A17F18AC0B7A30367A0C9B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickAndRollUITests/Pods-PickAndRollUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9815377BC30F1D1DC241B45F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickAndRoll/Pods-PickAndRoll-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA3724834BD5755EB98A64BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickAndRoll/Pods-PickAndRoll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFA14946303B234669A2DDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83E5EEF91EF3B7D80069BA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B596FC1F023E7F00F200A6 /* ELCImagePickerDemoAppDelegate.m in Sources */,
+				83B8A0341F3D79490071CEB3 /* MessageViewController.swift in Sources */,
+				83BC42C81EF3ED4700ADBD71 /* MenuCell.swift in Sources */,
+				835386B91F0CB2B500D9114F /* PhotoFromAlbumsViewController.swift in Sources */,
+				83B596F61F023E7F00F200A6 /* ELCOverlayImageView.m in Sources */,
+				835386BB1F0E54BB00D9114F /* UsersListViewController.swift in Sources */,
+				83B596F21F023E7F00F200A6 /* ELCAssetCell.m in Sources */,
+				83B596F51F023E7F00F200A6 /* ELCImagePickerController.m in Sources */,
+				83B596FD1F023E7F00F200A6 /* ELCImagePickerDemoViewController.m in Sources */,
+				5CC499E81F29F10D008E75F6 /* menuViewController.swift in Sources */,
+				839804841EF7CE93003A02F3 /* ImagePickViewController.swift in Sources */,
+				5CC499E61F29F0F1008E75F6 /* ToDoListTableViewController.swift in Sources */,
+				83B596F41F023E7F00F200A6 /* ELCConsole.m in Sources */,
+				83E5EF311EF3BBBB0069BA8E /* SignOutCode.swift in Sources */,
+				83B596F31F023E7F00F200A6 /* ELCAssetTablePicker.m in Sources */,
+				835386BD1F0E573B00D9114F /* CustomCell.swift in Sources */,
+				8398048A1EF90610003A02F3 /* ViewControllerhandler.swift in Sources */,
+				83E5EF301EF3BBBB0069BA8E /* DataService.swift in Sources */,
+				835386B51F0CB24900D9114F /* CollectionViewCell.swift in Sources */,
+				83B596F01F023E7F00F200A6 /* ELCAlbumPickerController.m in Sources */,
+				83E5EF031EF3B7D80069BA8E /* ViewController.swift in Sources */,
+				5CA293D61F220ACE006362D1 /* LoginViewController.swift in Sources */,
+				83E5EF011EF3B7D80069BA8E /* AppDelegate.swift in Sources */,
+				83B596F11F023E7F00F200A6 /* ELCAsset.m in Sources */,
+				83BC42CE1EF3F5AA00ADBD71 /* DisplayMapViewController.swift in Sources */,
+				83BC42BE1EF3DBF500ADBD71 /* SideMenuViewController.swift in Sources */,
+				83BC42C51EF3E9ED00ADBD71 /* SWRevealViewController.m in Sources */,
+				5CF4A7AF1F459546004B8082 /* NewToDoTableViewController.swift in Sources */,
+				8321591E1F208FA0006FEF79 /* ForgotPasswordViewController.swift in Sources */,
+				839804881EF7E689003A02F3 /* ImagePickViewControllerhandler.swift in Sources */,
+				5CC499E21F289535008E75F6 /* CustomFolderCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E5EF0D1EF3B7D80069BA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E5EF161EF3B7D80069BA8E /* PickAndRollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E5EF181EF3B7D80069BA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E5EF211EF3B7D80069BA8E /* PickAndRollUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83E5EF131EF3B7D80069BA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E5EEFC1EF3B7D80069BA8E /* PickAndRoll */;
+			targetProxy = 83E5EF121EF3B7D80069BA8E /* PBXContainerItemProxy */;
+		};
+		83E5EF1E1EF3B7D80069BA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E5EEFC1EF3B7D80069BA8E /* PickAndRoll */;
+			targetProxy = 83E5EF1D1EF3B7D80069BA8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83E5EF041EF3B7D80069BA8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83E5EF051EF3B7D80069BA8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83E5EF091EF3B7D80069BA8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83E5EF0A1EF3B7D80069BA8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83E5EF231EF3B7D80069BA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83E5EF241EF3B7D80069BA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83E5EF261EF3B7D80069BA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E72E627A2C9CAB7419A8B6 /* Pods-PickAndRoll.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2CRRHEMXQH;
+				INFOPLIST_FILE = PickAndRoll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cispl.PickAndRollc2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PickAndRoll/PickAndRoll-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		83E5EF271EF3B7D80069BA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D7D20BA17916361D16C891 /* Pods-PickAndRoll.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2CRRHEMXQH;
+				INFOPLIST_FILE = PickAndRoll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cispl.PickAndRollc2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PickAndRoll/PickAndRoll-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		83E5EF291EF3B7D80069BA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BD14531ACD16092C1C065D /* Pods-PickAndRollTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2CRRHEMXQH;
+				INFOPLIST_FILE = PickAndRollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cispl.PickAndRollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickAndRoll.app/PickAndRoll";
+			};
+			name = Debug;
+		};
+		83E5EF2A1EF3B7D80069BA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D11A7D8DF22F5CCFA3C5E1B /* Pods-PickAndRollTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2CRRHEMXQH;
+				INFOPLIST_FILE = PickAndRollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cispl.PickAndRollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickAndRoll.app/PickAndRoll";
+			};
+			name = Release;
+		};
+		83E5EF2C1EF3B7D80069BA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3BA24BCD89C945E3D59B3C9 /* Pods-PickAndRollUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2CRRHEMXQH;
+				INFOPLIST_FILE = PickAndRollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cispl.PickAndRollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PickAndRoll;
+			};
+			name = Debug;
+		};
+		83E5EF2D1EF3B7D80069BA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59472CF0B9D7F7A7C16B4E4 /* Pods-PickAndRollUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2CRRHEMXQH;
+				INFOPLIST_FILE = PickAndRollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cispl.PickAndRollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PickAndRoll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83E5EEF81EF3B7D80069BA8E /* Build configuration list for PBXProject "PickAndRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E5EF231EF3B7D80069BA8E /* Debug */,
+				83E5EF241EF3B7D80069BA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E5EF251EF3B7D80069BA8E /* Build configuration list for PBXNativeTarget "PickAndRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E5EF261EF3B7D80069BA8E /* Debug */,
+				83E5EF271EF3B7D80069BA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E5EF281EF3B7D80069BA8E /* Build configuration list for PBXNativeTarget "PickAndRollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E5EF291EF3B7D80069BA8E /* Debug */,
+				83E5EF2A1EF3B7D80069BA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E5EF2B1EF3B7D80069BA8E /* Build configuration list for PBXNativeTarget "PickAndRollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E5EF2C1EF3B7D80069BA8E /* Debug */,
+				83E5EF2D1EF3B7D80069BA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83E5EEF51EF3B7D80069BA8E /* Project object */;
+}
